@@ -1,0 +1,35 @@
+.parents-letter-header{
+    background-color: #C00000;
+    height: 3rem;
+}
+
+#text-container{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+
+#button-bar{
+    width: 80%;
+    min-height: 10rem;
+    padding: 2rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: auto;
+    flex-wrap: wrap;
+}
+.language-button{
+    font-size: 1rem;
+    background-color: #f1f1f1;
+    border: none;
+    border-radius: 10px;
+    padding: 1rem;
+    margin: 0.5rem;
+}
+
+.active{
+    background-color: #C00000;
+    color: white;
+}
